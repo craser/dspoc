@@ -1,0 +1,6 @@
+function dump(a: Array) {
+	for each (var x in a) {
+		console.log(x);
+	}
+}
+module.exports = dump;
